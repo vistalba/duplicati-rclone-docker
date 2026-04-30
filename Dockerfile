@@ -1,4 +1,4 @@
-FROM duplicati/duplicati:2.3.0.0-stable
+FROM duplicati/duplicati:2.3.0.1-stable
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
